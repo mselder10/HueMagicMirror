@@ -1,0 +1,636 @@
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Sun May  3 16:15:54 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[1236:1236:0503/161611.713940:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[1236:1236:0503/161611.916065:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[1197:1515:0503/161619.302545:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1197:1515:0503/161619.314445:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1197:1515:0503/161619.333457:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1429:1:0503/161626.780414:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1429:1:0503/161626.804400:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1429:1:0503/161657.730331:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1429:1:0503/161657.747720:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1429:1:0503/161657.793536:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1429:1:0503/161657.811737:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1197:1197:0503/161745.494113:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:11:46 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[614:614:0504/221208.392540:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[614:614:0504/221208.592434:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[575:899:0504/221223.107245:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[575:899:0504/221223.172556:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[575:899:0504/221223.231678:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[817:1:0504/221232.543696:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[817:1:0504/221232.577842:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[817:1:0504/221300.311268:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[817:1:0504/221300.326892:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[817:1:0504/221300.381363:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[817:1:0504/221300.400820:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.200160:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.222350:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.273722:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.291994:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.431756:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.448213:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.465278:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.481710:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.504761:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.662701:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221336.678184:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221342.934183:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[1212:1:0504/221342.959071:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[575:575:0504/221513.230945:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:22:27 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[592:592:0504/222248.993613:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[592:592:0504/222249.164801:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[554:879:0504/222303.036947:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[554:879:0504/222303.067600:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[554:879:0504/222303.083712:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[794:1:0504/222313.313715:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0504/222313.344726:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0504/222333.241783:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0504/222333.263074:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0504/222333.356026:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0504/222333.381416:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[554:554:0504/222528.306924:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:31:04 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[599:599:0504/223128.146563:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[599:599:0504/223128.313253:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[561:923:0504/223140.643292:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[561:923:0504/223140.655607:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[561:923:0504/223140.691076:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[802:1:0504/223149.434650:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[802:1:0504/223149.464101:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[802:1:0504/223219.845287:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[802:1:0504/223219.863831:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[802:1:0504/223219.914595:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[802:1:0504/223219.937525:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+.[2020-05-04 22:39:38.973] [ERROR]  { Error: listen EADDRINUSE: address already in use 127.0.0.1:8080
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1460:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:61:10)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '127.0.0.1',
+  port: 8080 }
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:39:45 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+
+(EE) 
+Fatal server error:
+(EE) Server is already active for display 0
+	If this server is no longer running, remove /tmp/.X0-lock
+	and start again.
+(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+(EE) 
+xinit: connection to X server lostXIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 770 requests (770 known processed) with 0 events remaining.
+
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+xinit: unexpected signal 2
+xinit: giving up
+xinit: unable to connect to X server: Connection refused
+xinit: server error
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:42:38 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[573:573:0504/224300.191793:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[573:573:0504/224300.398110:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[535:808:0504/224309.558315:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[535:808:0504/224309.575694:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[535:808:0504/224309.586305:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[775:1:0504/224319.709869:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[775:1:0504/224319.742591:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[775:1:0504/224335.747449:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[775:1:0504/224335.772131:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[775:1:0504/224335.838717:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[775:1:0504/224335.865628:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[535:765:0504/224406.774863:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down .(II) Server terminated successfully (0). Closing log file.
+.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May  4 22:46:50 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[555:555:0504/224712.751750:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[555:555:0504/224712.967323:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[518:803:0504/224723.210627:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[518:803:0504/224723.237958:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[518:803:0504/224723.251421:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[761:1:0504/224735.835905:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[761:1:0504/224735.859897:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[761:1:0504/224800.721602:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[761:1:0504/224800.736147:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[761:1:0504/224800.820463:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[761:1:0504/224800.852286:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[518:748:0505/180935.331625:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+[560:716:0505/181009.199330:ERROR:broker_posix.cc(40)] Recvmsg error: Connection reset by peer (104)
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue May  5 18:12:29 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[560:560:0505/181251.299353:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[560:560:0505/181251.443250:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[523:790:0505/181301.787021:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[523:790:0505/181301.801862:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[523:790:0505/181301.818510:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[523:753:0505/183420.574620:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down ......(II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:01:FE:67 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue May  5 18:37:02 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[561:561:0505/183726.707868:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[561:561:0505/183726.894188:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[524:847:0505/183740.993063:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[524:847:0505/183741.031383:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[524:847:0505/183741.059627:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[765:1:0505/183753.727933:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[765:1:0505/183753.752031:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[765:1:0505/183820.677061:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[765:1:0505/183820.695234:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[765:1:0505/183820.741361:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[765:1:0505/183820.763040:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[524:754:0505/184026.205598:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 15:31:00 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[720:720:0518/153123.184334:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[720:720:0518/153123.315502:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[684:1004:0518/153132.377161:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[684:1004:0518/153132.416520:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[684:1004:0518/153132.447546:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[924:1:0518/153140.223485:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[924:1:0518/153140.242981:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[924:1:0518/153156.163962:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[924:1:0518/153156.183580:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[924:1:0518/153156.259208:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[924:1:0518/153156.296155:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[684:913:0518/154928.504697:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 15:49:52 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+/home/pi/mmstart.sh: line 5:  1522 Killed                  xinit /home/pi/chromium_start.sh
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 15:52:23 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[605:605:0518/155246.313864:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[605:605:0518/155246.516792:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[568:883:0518/155255.158891:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[568:883:0518/155255.186980:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[568:883:0518/155255.225221:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[807:1:0518/155303.344554:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[807:1:0518/155303.378660:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[807:1:0518/155325.517707:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[807:1:0518/155325.535384:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[807:1:0518/155325.594560:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[807:1:0518/155325.610660:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[568:797:0518/163747.752710:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+[807:7:0100/000000.332115:ERROR:broker_posix.cc(40)] Recvmsg error: Connection reset by peer (104)
+[807:7:0100/000000.766638:FATAL:memory.cc(22)] Out of memory. size=131072
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 16:38:17 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+/home/pi/mmstart.sh: line 5:  5015 Killed                  xinit /home/pi/chromium_start.sh
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 16:40:09 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[590:590:0518/164032.024115:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[590:590:0518/164032.187740:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[553:876:0518/164040.861912:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[553:876:0518/164040.922181:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[553:876:0518/164040.945663:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[796:1:0518/164048.928946:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[796:1:0518/164048.949871:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[796:1:0518/164105.142697:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[796:1:0518/164105.164916:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[796:1:0518/164105.214198:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[796:1:0518/164105.246185:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[553:782:0518/165926.750424:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 16:59:50 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+/home/pi/mmstart.sh: line 5:  1406 Killed                  xinit /home/pi/chromium_start.sh
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 17:01:41 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[546:546:0518/170204.174558:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[546:546:0518/170204.340863:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[510:825:0518/170212.999918:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[510:825:0518/170213.038140:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[510:825:0518/170213.082209:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[749:1:0518/170221.098365:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/170221.115159:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/170244.767618:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/170244.784187:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/170244.834456:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/170244.864143:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[510:739:0518/172107.863307:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 17:23:25 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[592:592:0518/172347.872356:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[592:592:0518/172348.046817:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[555:874:0518/172356.787503:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[555:874:0518/172356.804875:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[555:874:0518/172356.813644:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[794:1:0518/172404.780658:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0518/172404.812993:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0518/172428.566728:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0518/172428.589852:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0518/172428.644872:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[794:1:0518/172428.657930:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[555:784:0518/172646.233760:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon May 18 17:28:59 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[547:547:0518/172922.126458:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[547:547:0518/172922.328890:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[510:829:0518/172930.922617:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[510:829:0518/172930.964175:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[510:829:0518/172930.996683:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[749:1:0518/172939.037442:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/172939.057825:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/172955.861495:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/172955.870984:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/172955.997166:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[749:1:0518/172956.032034:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue May 19 13:49:47 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[660:660:0519/135009.684883:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[660:660:0519/135009.863719:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[624:944:0519/135018.988994:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[624:944:0519/135019.035913:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[624:944:0519/135019.059345:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[864:1:0519/135026.988989:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[864:1:0519/135027.013408:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[864:1:0519/135049.558206:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[864:1:0519/135049.579435:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[864:1:0519/135049.636839:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[864:1:0519/135049.653673:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[624:853:0519/155006.659511:FATAL:bus.cc(1218)] D-Bus connection was disconnected. Aborting.
+Trace/breakpoint trap (core dumped)
+xinit: connection to X server lost
+
+waiting for X server to shut down (II) Server terminated successfully (0). Closing log file.
+
+
+
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.15.0-48-generic armv8l Raspbian
+Current Operating System: Linux raspberrypi 4.19.97+ #1294 Thu Jan 30 13:10:54 GMT 2020 armv6l
+Kernel command line: coherent_pool=1M 8250.nr_uarts=0 bcm2708_fb.fbwidth=768 bcm2708_fb.fbheight=1366 bcm2708_fb.fbswap=1 smsc95xx.macaddr=B8:27:EB:98:19:37 vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyS0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 05 June 2019  12:49:54PM
+xorg-server 2:1.20.4-1+rpt1 (https://www.debian.org/support) 
+Current version of pixman: 0.36.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue May 19 15:52:21 2020
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[600:600:0519/155244.118228:ERROR:gl_implementation.cc(282)] Failed to load libGLESv2.so.2: libGLESv2.so.2: cannot open shared object file: No such file or directory
+[600:600:0519/155244.287041:ERROR:viz_main_impl.cc(176)] Exiting GPU process due to errors during initialization
+[563:884:0519/155253.199963:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[563:884:0519/155253.235653:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[563:884:0519/155253.252292:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[804:1:0519/155301.258862:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[804:1:0519/155301.283812:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[804:1:0519/155323.881740:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[804:1:0519/155323.901887:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[804:1:0519/155323.956466:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.
+[804:1:0519/155323.979710:ERROR:child_process_sandbox_support_impl_linux.cc(81)] FontService unique font name matching request did not receive a response.

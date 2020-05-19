@@ -1,0 +1,505 @@
+2020-05-03T16:07:09: PM2 log: ===============================================================================
+2020-05-03T16:07:09: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-03T16:07:09: PM2 log: Time                 : Sun May 03 2020 16:07:09 GMT-0500 (Central Daylight Time)
+2020-05-03T16:07:09: PM2 log: PM2 version          : 4.4.0
+2020-05-03T16:07:09: PM2 log: Node.js version      : 10.16.0
+2020-05-03T16:07:09: PM2 log: Current arch         : arm
+2020-05-03T16:07:09: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-03T16:07:09: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-03T16:07:09: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-03T16:07:09: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-03T16:07:09: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-03T16:07:09: PM2 log: Worker Interval      : 30000
+2020-05-03T16:07:09: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-03T16:07:09: PM2 log: Concurrent actions   : 2
+2020-05-03T16:07:09: PM2 log: SIGTERM timeout      : 1600
+2020-05-03T16:07:09: PM2 log: ===============================================================================
+2020-05-03T16:07:30: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-03T16:07:32: PM2 log: Exited peacefully
+2020-05-03T16:15:22: PM2 log: ===============================================================================
+2020-05-03T16:15:23: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-03T16:15:23: PM2 log: Time                 : Sun May 03 2020 16:15:23 GMT-0500 (Central Daylight Time)
+2020-05-03T16:15:23: PM2 log: PM2 version          : 4.4.0
+2020-05-03T16:15:23: PM2 log: Node.js version      : 10.16.0
+2020-05-03T16:15:23: PM2 log: Current arch         : arm
+2020-05-03T16:15:23: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-03T16:15:23: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-03T16:15:23: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-03T16:15:23: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-03T16:15:23: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-03T16:15:23: PM2 log: Worker Interval      : 30000
+2020-05-03T16:15:23: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-03T16:15:23: PM2 log: Concurrent actions   : 2
+2020-05-03T16:15:23: PM2 log: SIGTERM timeout      : 1600
+2020-05-03T16:15:23: PM2 log: ===============================================================================
+2020-05-03T16:15:23: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-03T16:15:24: PM2 log: App [mmstart:0] online
+2020-05-03T16:17:45: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-03T16:17:45: PM2 log: Deleting process 0
+2020-05-03T16:17:45: PM2 log: Stopping app:mmstart id:0
+2020-05-03T16:17:46: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGTERM]
+2020-05-03T16:17:47: PM2 log: pid=1165 msg=process killed
+2020-05-03T16:17:47: PM2 log: Exited peacefully
+2020-05-04T22:08:29: PM2 log: ===============================================================================
+2020-05-04T22:08:31: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:08:31: PM2 log: Time                 : Mon May 04 2020 22:08:31 GMT-0500 (Central Daylight Time)
+2020-05-04T22:08:31: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:08:31: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:08:31: PM2 log: Current arch         : arm
+2020-05-04T22:08:31: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:08:31: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:08:31: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:08:31: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:08:31: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:08:31: PM2 log: Worker Interval      : 30000
+2020-05-04T22:08:31: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:08:31: PM2 log: Concurrent actions   : 2
+2020-05-04T22:08:31: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:08:31: PM2 log: ===============================================================================
+2020-05-04T22:11:15: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:11:16: PM2 log: App [mmstart:0] online
+2020-05-04T22:15:13: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-04T22:15:13: PM2 log: Deleting process 0
+2020-05-04T22:15:13: PM2 log: Stopping app:mmstart id:0
+2020-05-04T22:15:14: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGTERM]
+2020-05-04T22:15:15: PM2 log: pid=546 msg=process killed
+2020-05-04T22:15:16: PM2 log: Exited peacefully
+2020-05-04T22:17:50: PM2 log: ===============================================================================
+2020-05-04T22:17:50: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:17:50: PM2 log: Time                 : Mon May 04 2020 22:17:50 GMT-0500 (Central Daylight Time)
+2020-05-04T22:17:50: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:17:50: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:17:50: PM2 log: Current arch         : arm
+2020-05-04T22:17:50: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:17:50: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:17:50: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:17:50: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:17:50: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:17:50: PM2 log: Worker Interval      : 30000
+2020-05-04T22:17:50: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:17:50: PM2 log: Concurrent actions   : 2
+2020-05-04T22:17:50: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:17:50: PM2 log: ===============================================================================
+2020-05-04T22:19:36: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-04T22:19:36: PM2 log: Exited peacefully
+2020-05-04T22:21:55: PM2 log: ===============================================================================
+2020-05-04T22:21:55: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:21:55: PM2 log: Time                 : Mon May 04 2020 22:21:55 GMT-0500 (Central Daylight Time)
+2020-05-04T22:21:55: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:21:55: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:21:55: PM2 log: Current arch         : arm
+2020-05-04T22:21:55: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:21:55: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:21:55: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:21:55: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:21:55: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:21:55: PM2 log: Worker Interval      : 30000
+2020-05-04T22:21:55: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:21:55: PM2 log: Concurrent actions   : 2
+2020-05-04T22:21:55: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:21:55: PM2 log: ===============================================================================
+2020-05-04T22:21:56: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:21:56: PM2 log: App [mmstart:0] online
+2020-05-04T22:25:28: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-04T22:25:28: PM2 log: Deleting process 0
+2020-05-04T22:25:28: PM2 log: Stopping app:mmstart id:0
+2020-05-04T22:25:29: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGTERM]
+2020-05-04T22:25:30: PM2 log: pid=525 msg=process killed
+2020-05-04T22:25:30: PM2 log: Exited peacefully
+2020-05-04T22:27:42: PM2 log: ===============================================================================
+2020-05-04T22:27:42: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:27:42: PM2 log: Time                 : Mon May 04 2020 22:27:42 GMT-0500 (Central Daylight Time)
+2020-05-04T22:27:42: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:27:42: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:27:42: PM2 log: Current arch         : arm
+2020-05-04T22:27:42: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:27:42: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:27:42: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:27:42: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:27:42: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:27:42: PM2 log: Worker Interval      : 30000
+2020-05-04T22:27:42: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:27:42: PM2 log: Concurrent actions   : 2
+2020-05-04T22:27:42: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:27:42: PM2 log: ===============================================================================
+2020-05-04T22:30:34: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:30:34: PM2 log: App [mmstart:0] online
+2020-05-04T22:32:25: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2020-05-04T22:32:25: PM2 log: Deleting process 0
+2020-05-04T22:32:25: PM2 log: Stopping app:mmstart id:0
+2020-05-04T22:32:27: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGTERM]
+2020-05-04T22:32:27: PM2 log: pid=525 msg=process killed
+2020-05-04T22:32:28: PM2 log: Exited peacefully
+2020-05-04T22:39:13: PM2 log: ===============================================================================
+2020-05-04T22:39:13: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:39:13: PM2 log: Time                 : Mon May 04 2020 22:39:13 GMT-0500 (Central Daylight Time)
+2020-05-04T22:39:13: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:39:13: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:39:13: PM2 log: Current arch         : arm
+2020-05-04T22:39:13: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:39:13: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:39:13: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:39:13: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:39:13: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:39:13: PM2 log: Worker Interval      : 30000
+2020-05-04T22:39:13: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:39:13: PM2 log: Concurrent actions   : 2
+2020-05-04T22:39:13: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:39:13: PM2 log: ===============================================================================
+2020-05-04T22:39:14: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:39:14: PM2 log: App [mmstart:0] online
+2020-05-04T22:39:15: PM2 log: App [mmstart:1] starting in -fork mode-
+2020-05-04T22:39:15: PM2 log: App [mmstart:1] online
+2020-05-04T22:39:57: PM2 log: Stopping app:mmstart id:0
+2020-05-04T22:39:58: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: pid=710 msg=failed to kill - retrying in 100ms
+2020-05-04T22:39:59: PM2 log: App [mmstart:0] exited with code [1] via signal [SIGINT]
+2020-05-04T22:39:59: PM2 log: pid=710 msg=process killed
+2020-05-04T22:40:00: PM2 log: App [mmstart:1] exited with code [1] via signal [SIGINT]
+2020-05-04T22:40:00: PM2 log: App [mmstart:1] starting in -fork mode-
+2020-05-04T22:40:00: PM2 log: App [mmstart:1] online
+2020-05-04T22:40:21: PM2 log: Stopping app:mmstart id:1
+2020-05-04T22:40:21: PM2 log: App [mmstart:1] exited with code [0] via signal [SIGINT]
+2020-05-04T22:40:21: PM2 log: pid=787 msg=process killed
+2020-05-04T22:40:42: PM2 log: PM2 successfully stopped
+2020-05-04T22:42:05: PM2 log: ===============================================================================
+2020-05-04T22:42:05: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:42:05: PM2 log: Time                 : Mon May 04 2020 22:42:05 GMT-0500 (Central Daylight Time)
+2020-05-04T22:42:05: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:42:05: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:42:05: PM2 log: Current arch         : arm
+2020-05-04T22:42:05: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:42:05: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:42:05: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:42:05: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:42:05: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:42:05: PM2 log: Worker Interval      : 30000
+2020-05-04T22:42:05: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:42:05: PM2 log: Concurrent actions   : 2
+2020-05-04T22:42:05: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:42:05: PM2 log: ===============================================================================
+2020-05-04T22:42:07: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:42:07: PM2 log: App [mmstart:0] online
+2020-05-04T22:44:40: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-04T22:44:40: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:44:40: PM2 log: App [mmstart:0] online
+2020-05-04T22:44:52: PM2 log: Stopping app:mmstart id:0
+2020-05-04T22:44:52: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-04T22:44:53: PM2 log: pid=1211 msg=process killed
+2020-05-04T22:44:53: PM2 log: PM2 successfully stopped
+2020-05-04T22:46:19: PM2 log: ===============================================================================
+2020-05-04T22:46:19: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-04T22:46:19: PM2 log: Time                 : Mon May 04 2020 22:46:19 GMT-0500 (Central Daylight Time)
+2020-05-04T22:46:19: PM2 log: PM2 version          : 4.4.0
+2020-05-04T22:46:19: PM2 log: Node.js version      : 10.16.0
+2020-05-04T22:46:19: PM2 log: Current arch         : arm
+2020-05-04T22:46:19: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-04T22:46:19: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-04T22:46:19: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-04T22:46:19: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-04T22:46:19: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-04T22:46:19: PM2 log: Worker Interval      : 30000
+2020-05-04T22:46:19: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-04T22:46:19: PM2 log: Concurrent actions   : 2
+2020-05-04T22:46:19: PM2 log: SIGTERM timeout      : 1600
+2020-05-04T22:46:19: PM2 log: ===============================================================================
+2020-05-04T22:46:20: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-04T22:46:20: PM2 log: App [mmstart:0] online
+2020-05-05T18:10:15: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:10:15: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-05T18:10:15: PM2 log: App [mmstart:0] online
+2020-05-05T18:10:27: PM2 log: Stopping app:mmstart id:0
+2020-05-05T18:10:28: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:10:28: PM2 log: pid=4796 msg=process killed
+2020-05-05T18:10:28: PM2 log: PM2 successfully stopped
+2020-05-05T18:11:55: PM2 log: ===============================================================================
+2020-05-05T18:11:55: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-05T18:11:55: PM2 log: Time                 : Tue May 05 2020 18:11:55 GMT-0500 (Central Daylight Time)
+2020-05-05T18:11:55: PM2 log: PM2 version          : 4.4.0
+2020-05-05T18:11:55: PM2 log: Node.js version      : 10.16.0
+2020-05-05T18:11:55: PM2 log: Current arch         : arm
+2020-05-05T18:11:55: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-05T18:11:55: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-05T18:11:55: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-05T18:11:55: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-05T18:11:55: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-05T18:11:55: PM2 log: Worker Interval      : 30000
+2020-05-05T18:11:55: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-05T18:11:55: PM2 log: Concurrent actions   : 2
+2020-05-05T18:11:55: PM2 log: SIGTERM timeout      : 1600
+2020-05-05T18:11:55: PM2 log: ===============================================================================
+2020-05-05T18:11:57: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-05T18:11:57: PM2 log: App [mmstart:0] online
+2020-05-05T18:34:49: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:34:49: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-05T18:34:50: PM2 log: App [mmstart:0] online
+2020-05-05T18:35:02: PM2 log: Stopping app:mmstart id:0
+2020-05-05T18:35:02: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:35:03: PM2 log: pid=1254 msg=process killed
+2020-05-05T18:35:03: PM2 log: PM2 successfully stopped
+2020-05-05T18:36:30: PM2 log: ===============================================================================
+2020-05-05T18:36:30: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-05T18:36:30: PM2 log: Time                 : Tue May 05 2020 18:36:30 GMT-0500 (Central Daylight Time)
+2020-05-05T18:36:30: PM2 log: PM2 version          : 4.4.0
+2020-05-05T18:36:30: PM2 log: Node.js version      : 10.16.0
+2020-05-05T18:36:30: PM2 log: Current arch         : arm
+2020-05-05T18:36:30: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-05T18:36:30: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-05T18:36:30: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-05T18:36:30: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-05T18:36:30: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-05T18:36:30: PM2 log: Worker Interval      : 30000
+2020-05-05T18:36:30: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-05T18:36:30: PM2 log: Concurrent actions   : 2
+2020-05-05T18:36:30: PM2 log: SIGTERM timeout      : 1600
+2020-05-05T18:36:30: PM2 log: ===============================================================================
+2020-05-05T18:36:32: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-05T18:36:32: PM2 log: App [mmstart:0] online
+2020-05-05T18:41:00: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:41:00: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-05T18:41:00: PM2 log: App [mmstart:0] online
+2020-05-05T18:41:12: PM2 log: Stopping app:mmstart id:0
+2020-05-05T18:41:13: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-05T18:41:13: PM2 log: pid=1241 msg=process killed
+2020-05-05T18:41:14: PM2 log: PM2 successfully stopped
+2020-05-18T15:30:27: PM2 log: ===============================================================================
+2020-05-18T15:30:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T15:30:27: PM2 log: Time                 : Mon May 18 2020 15:30:27 GMT-0500 (Central Daylight Time)
+2020-05-18T15:30:27: PM2 log: PM2 version          : 4.4.0
+2020-05-18T15:30:27: PM2 log: Node.js version      : 10.16.0
+2020-05-18T15:30:27: PM2 log: Current arch         : arm
+2020-05-18T15:30:27: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T15:30:27: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T15:30:27: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T15:30:27: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T15:30:27: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T15:30:27: PM2 log: Worker Interval      : 30000
+2020-05-18T15:30:27: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T15:30:27: PM2 log: Concurrent actions   : 2
+2020-05-18T15:30:27: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T15:30:27: PM2 log: ===============================================================================
+2020-05-18T15:30:29: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T15:30:30: PM2 log: App [mmstart:0] online
+2020-05-18T15:49:38: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T15:49:38: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T15:49:38: PM2 log: App [mmstart:0] online
+2020-05-18T15:49:51: PM2 log: Stopping app:mmstart id:0
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:52: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: pid=1509 msg=failed to kill - retrying in 100ms
+2020-05-18T15:49:53: PM2 log: Process with pid 1509 still alive after 1600ms, sending it SIGKILL now...
+2020-05-18T15:49:54: PM2 log: App [mmstart:0] exited with code [137] via signal [SIGINT]
+2020-05-18T15:49:54: PM2 log: pid=1509 msg=process killed
+2020-05-18T15:49:54: PM2 log: PM2 successfully stopped
+2020-05-18T15:51:51: PM2 log: ===============================================================================
+2020-05-18T15:51:51: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T15:51:51: PM2 log: Time                 : Mon May 18 2020 15:51:51 GMT-0500 (Central Daylight Time)
+2020-05-18T15:51:51: PM2 log: PM2 version          : 4.4.0
+2020-05-18T15:51:51: PM2 log: Node.js version      : 10.16.0
+2020-05-18T15:51:51: PM2 log: Current arch         : arm
+2020-05-18T15:51:51: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T15:51:51: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T15:51:51: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T15:51:51: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T15:51:51: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T15:51:51: PM2 log: Worker Interval      : 30000
+2020-05-18T15:51:51: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T15:51:51: PM2 log: Concurrent actions   : 2
+2020-05-18T15:51:51: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T15:51:51: PM2 log: ===============================================================================
+2020-05-18T15:51:52: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T15:51:53: PM2 log: App [mmstart:0] online
+2020-05-18T16:38:03: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T16:38:03: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T16:38:03: PM2 log: App [mmstart:0] online
+2020-05-18T16:38:16: PM2 log: Stopping app:mmstart id:0
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:17: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: pid=5003 msg=failed to kill - retrying in 100ms
+2020-05-18T16:38:18: PM2 log: Process with pid 5003 still alive after 1600ms, sending it SIGKILL now...
+2020-05-18T16:38:19: PM2 log: App [mmstart:0] exited with code [137] via signal [SIGINT]
+2020-05-18T16:38:19: PM2 log: pid=5003 msg=process killed
+2020-05-18T16:38:19: PM2 log: PM2 successfully stopped
+2020-05-18T16:39:36: PM2 log: ===============================================================================
+2020-05-18T16:39:37: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T16:39:37: PM2 log: Time                 : Mon May 18 2020 16:39:37 GMT-0500 (Central Daylight Time)
+2020-05-18T16:39:37: PM2 log: PM2 version          : 4.4.0
+2020-05-18T16:39:37: PM2 log: Node.js version      : 10.16.0
+2020-05-18T16:39:37: PM2 log: Current arch         : arm
+2020-05-18T16:39:37: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T16:39:37: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T16:39:37: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T16:39:37: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T16:39:37: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T16:39:37: PM2 log: Worker Interval      : 30000
+2020-05-18T16:39:37: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T16:39:37: PM2 log: Concurrent actions   : 2
+2020-05-18T16:39:37: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T16:39:37: PM2 log: ===============================================================================
+2020-05-18T16:39:38: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T16:39:39: PM2 log: App [mmstart:0] online
+2020-05-18T16:59:37: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T16:59:37: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T16:59:38: PM2 log: App [mmstart:0] online
+2020-05-18T16:59:49: PM2 log: Stopping app:mmstart id:0
+2020-05-18T16:59:50: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:50: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:51: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:52: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:52: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:52: PM2 log: pid=1394 msg=failed to kill - retrying in 100ms
+2020-05-18T16:59:52: PM2 log: Process with pid 1394 still alive after 1600ms, sending it SIGKILL now...
+2020-05-18T16:59:52: PM2 log: App [mmstart:0] exited with code [137] via signal [SIGINT]
+2020-05-18T16:59:52: PM2 log: pid=1394 msg=process killed
+2020-05-18T16:59:53: PM2 log: PM2 successfully stopped
+2020-05-18T17:01:08: PM2 log: ===============================================================================
+2020-05-18T17:01:09: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T17:01:09: PM2 log: Time                 : Mon May 18 2020 17:01:09 GMT-0500 (Central Daylight Time)
+2020-05-18T17:01:09: PM2 log: PM2 version          : 4.4.0
+2020-05-18T17:01:09: PM2 log: Node.js version      : 10.16.0
+2020-05-18T17:01:09: PM2 log: Current arch         : arm
+2020-05-18T17:01:09: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T17:01:09: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T17:01:09: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T17:01:09: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T17:01:09: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T17:01:09: PM2 log: Worker Interval      : 30000
+2020-05-18T17:01:09: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T17:01:09: PM2 log: Concurrent actions   : 2
+2020-05-18T17:01:09: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T17:01:09: PM2 log: ===============================================================================
+2020-05-18T17:01:10: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T17:01:11: PM2 log: App [mmstart:0] online
+2020-05-18T17:21:18: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T17:21:18: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T17:21:18: PM2 log: App [mmstart:0] online
+2020-05-18T17:21:31: PM2 log: Stopping app:mmstart id:0
+2020-05-18T17:21:32: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T17:21:32: PM2 log: pid=1429 msg=process killed
+2020-05-18T17:21:32: PM2 log: PM2 successfully stopped
+2020-05-18T17:22:52: PM2 log: ===============================================================================
+2020-05-18T17:22:52: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T17:22:52: PM2 log: Time                 : Mon May 18 2020 17:22:52 GMT-0500 (Central Daylight Time)
+2020-05-18T17:22:52: PM2 log: PM2 version          : 4.4.0
+2020-05-18T17:22:52: PM2 log: Node.js version      : 10.16.0
+2020-05-18T17:22:53: PM2 log: Current arch         : arm
+2020-05-18T17:22:53: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T17:22:53: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T17:22:53: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T17:22:53: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T17:22:53: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T17:22:53: PM2 log: Worker Interval      : 30000
+2020-05-18T17:22:53: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T17:22:53: PM2 log: Concurrent actions   : 2
+2020-05-18T17:22:53: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T17:22:53: PM2 log: ===============================================================================
+2020-05-18T17:22:54: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T17:22:55: PM2 log: App [mmstart:0] online
+2020-05-18T17:26:57: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T17:26:57: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T17:26:57: PM2 log: App [mmstart:0] online
+2020-05-18T17:27:09: PM2 log: Stopping app:mmstart id:0
+2020-05-18T17:27:09: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-18T17:27:10: PM2 log: pid=1280 msg=process killed
+2020-05-18T17:27:10: PM2 log: PM2 successfully stopped
+2020-05-18T17:28:26: PM2 log: ===============================================================================
+2020-05-18T17:28:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-18T17:28:27: PM2 log: Time                 : Mon May 18 2020 17:28:27 GMT-0500 (Central Daylight Time)
+2020-05-18T17:28:27: PM2 log: PM2 version          : 4.4.0
+2020-05-18T17:28:27: PM2 log: Node.js version      : 10.16.0
+2020-05-18T17:28:27: PM2 log: Current arch         : arm
+2020-05-18T17:28:27: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-18T17:28:27: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-18T17:28:27: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-18T17:28:27: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-18T17:28:27: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-18T17:28:27: PM2 log: Worker Interval      : 30000
+2020-05-18T17:28:27: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-18T17:28:27: PM2 log: Concurrent actions   : 2
+2020-05-18T17:28:27: PM2 log: SIGTERM timeout      : 1600
+2020-05-18T17:28:27: PM2 log: ===============================================================================
+2020-05-18T17:28:28: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-18T17:28:29: PM2 log: App [mmstart:0] online
+2020-05-19T13:49:14: PM2 log: ===============================================================================
+2020-05-19T13:49:14: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-19T13:49:14: PM2 log: Time                 : Tue May 19 2020 13:49:14 GMT-0500 (Central Daylight Time)
+2020-05-19T13:49:14: PM2 log: PM2 version          : 4.4.0
+2020-05-19T13:49:14: PM2 log: Node.js version      : 10.16.0
+2020-05-19T13:49:14: PM2 log: Current arch         : arm
+2020-05-19T13:49:14: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-19T13:49:14: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-19T13:49:14: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-19T13:49:14: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-19T13:49:14: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-19T13:49:14: PM2 log: Worker Interval      : 30000
+2020-05-19T13:49:14: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-19T13:49:14: PM2 log: Concurrent actions   : 2
+2020-05-19T13:49:14: PM2 log: SIGTERM timeout      : 1600
+2020-05-19T13:49:14: PM2 log: ===============================================================================
+2020-05-19T13:49:16: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-19T13:49:16: PM2 log: App [mmstart:0] online
+2020-05-19T15:50:14: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-19T15:50:15: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-19T15:50:15: PM2 log: App [mmstart:0] online
+2020-05-19T15:50:29: PM2 log: Stopping app:mmstart id:0
+2020-05-19T15:50:30: PM2 log: App [mmstart:0] exited with code [0] via signal [SIGINT]
+2020-05-19T15:50:30: PM2 log: pid=1904 msg=process killed
+2020-05-19T15:50:30: PM2 log: PM2 successfully stopped
+2020-05-19T15:51:48: PM2 log: ===============================================================================
+2020-05-19T15:51:49: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2020-05-19T15:51:49: PM2 log: Time                 : Tue May 19 2020 15:51:49 GMT-0500 (Central Daylight Time)
+2020-05-19T15:51:49: PM2 log: PM2 version          : 4.4.0
+2020-05-19T15:51:49: PM2 log: Node.js version      : 10.16.0
+2020-05-19T15:51:49: PM2 log: Current arch         : arm
+2020-05-19T15:51:49: PM2 log: PM2 home             : /home/pi/.pm2
+2020-05-19T15:51:49: PM2 log: PM2 PID file         : /home/pi/.pm2/pm2.pid
+2020-05-19T15:51:49: PM2 log: RPC socket file      : /home/pi/.pm2/rpc.sock
+2020-05-19T15:51:49: PM2 log: BUS socket file      : /home/pi/.pm2/pub.sock
+2020-05-19T15:51:49: PM2 log: Application log path : /home/pi/.pm2/logs
+2020-05-19T15:51:49: PM2 log: Worker Interval      : 30000
+2020-05-19T15:51:49: PM2 log: Process dump file    : /home/pi/.pm2/dump.pm2
+2020-05-19T15:51:49: PM2 log: Concurrent actions   : 2
+2020-05-19T15:51:49: PM2 log: SIGTERM timeout      : 1600
+2020-05-19T15:51:49: PM2 log: ===============================================================================
+2020-05-19T15:51:50: PM2 log: App [mmstart:0] starting in -fork mode-
+2020-05-19T15:51:51: PM2 log: App [mmstart:0] online
